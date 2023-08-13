@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Poppins:wght@100;200;400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:link :hover {
+text-decoration: none;
+}
+nav a:link :hover {
+  font-family: "Poppins", sans-serif;
+  line-height: 17px;
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+  cursor: pointer;
+}
+nav a:visited {
+  font-family: "Poppins", sans-serif;
+  line-height: 17px;
+  color: rgb(16, 15, 15);
+  text-decoration: none;
+}
+
+nav a:active {
+  color:#232121 ;
+  font-weight: 500;
+
+}
+a:hover {
+  text-decoration:none; 
+  color: #222222;
+}
+.ls-1{
+  letter-spacing: 0.1rem;
+}
+.cursive {
+  font-family: 'Great Vibes', cursive;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  line-height: 17px;
+  border-bottom: 0.1rem solid rgb(201, 201, 201);
+}
+
+.nav-link {
+  font-weight: 400 !important;
+}
+
+.bg {
+  background-image: url("./Images/bg\ copy.png");
+  height: 45vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-nav {
+  background-image: url("./Images/nav_banner.png");
+  height: 8vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
